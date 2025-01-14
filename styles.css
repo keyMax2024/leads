@@ -291,6 +291,7 @@ nav button:hover {
 .about {
     text-align: center;
     color: white;
+    
 }
 
 .about h2 {
@@ -303,6 +304,7 @@ nav button:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    overflow: hidden;
 }
 
 .card {
@@ -314,11 +316,13 @@ nav button:hover {
     text-align: center;
     width: 250px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
 }
 
 .card:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
 }
 
 .card p {
