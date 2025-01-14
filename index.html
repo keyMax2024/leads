@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>KEYMAX Real Estate</title>
+</head>
+
+<body>
+    <div id="overlay" onclick="closePopup()"></div>
+    <div id="popup-form">
+        <h2>Reserve Your Spot!</h2>
+        <div class="glass-form">
+            <form id="leadForm_popup">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="number" name="number" placeholder="Phone Number" required>
+                <textarea id="message" name="message" placeholder="Type Your Message"></textarea>
+                <button type="submit">Book Now!!!</button>
+                <button type="button" onclick="closePopup()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="navbar">
+            <div class="logo responsive-text">
+                <h1 class="title" onclick="openPopup()">
+                    <span><strong>KEYMAX Real Estate</strong></span>
+                </h1>
+            </div>
+            <nav>
+                <button onclick="window.location.href='tel:+919220444112';">+91-9220444112</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-content glow-text" onclick="openPopup()">
+            <h1>10% NET TAX FREE INCOME FOR 10 YEARS</h1>
+            <p>Discover exclusive investment opportunities in Dubai with us.</p>
+            <h2>
+                <p>Studio - 1 Bedroom & 2 Bedroom Apartments</p>
+            </h2>
+        </div>
+        <div class="form-container">
+            <div class="glass-form">
+                <h2>Reserve Your Spot!</h2>
+                <form id="leadForm">
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="number" name="number" placeholder="Phone Number" required>
+                    <textarea id="message" name="message" placeholder="Type Your Message"></textarea>
+                    <button type="submit">Book Now!!!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Highlights</h2>
+        <div class="card-container">
+            <div class="card">
+                <p>Starting Price ₹ 2 CRORE</p>
+            </div>
+            <div class="card">
+                <p>₹ 20 Lac Per Year</p>
+                <p>Net Rental Income ₹ 2 CRORE</p>
+            </div>
+            <div class="card">
+                <p>Price Increase @ 5% ₹ 1.25 CRORE</p>
+            </div>
+            <div class="card">
+                <p>Total Net Income ₹ 3.25 CRORE</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-card">
+            <img src="images/img1.jpg" alt="Dubai image" onclick="openPopup()">
+            <div class="card-content">
+                <h2>Exclusive Properties</h2>
+                <p>Invest in Dubai's premium apartments and enjoy 10 years of net tax-free income.</p>
+            </div>
+        </div>
+
+        <div class="gallery-card reverse">
+            <div class="card-content">
+                <h2>Prime Location</h2>
+                <p>Just a 20-minute drive from Burj Khalifa. Guaranteed zero maintenance charges for a decade.</p>
+            </div>
+            <img src="images/img3.jpg" alt="Image 2" onclick="openPopup()">
+        </div>
+
+        <div class="gallery-card">
+            <img src="images/img2.jpg" alt="Image 3" onclick="openPopup()">
+            <div class="card-content">
+                <h2>Luxury Living</h2>
+                <p>Experience a blend of modern amenities and timeless luxury, perfect for your family.</p>
+            </div>
+        </div>
+
+        <div class="gallery-card reverse">
+            <div class="card-content">
+                <h2>Secure Investment</h2>
+                <p>Benefit from high ROI and a buyback option for complete peace of mind.</p>
+            </div>
+            <img src="images/img4.jpg" alt="Image 4" onclick="openPopup()">
+        </div>
+    </section>
+
+    <section class="invest-in-dubai">
+        <div class="container">
+            <h2>WHY INVEST IN DUBAI?</h2>
+            <p>
+                Dubai’s investment landscape is rich with opportunity. The city continues
+                to be a global beacon for investors, with its visionary approach,
+                fast-growing population, and exceptional quality of life. Offering
+                world-class education, healthcare, and a secure environment, Dubai’s
+                thriving economy provides unmatched opportunities for real estate
+                investors seeking flexibility, returns, and premium experiences.
+            </p>
+            <div class="benefits">
+                <div class="benefit card">
+                    <h3>Golden Visa Opportunities</h3>
+                    <p>Unlock long-term residency with your investment</p>
+                </div>
+                <div class="benefit card">
+                    <h3>High Rental Yields</h3>
+                    <p>Enjoy competitive returns on property rentals</p>
+                </div>
+                <div class="benefit card">
+                    <h3>Tax-Free Income</h3>
+                    <p>No property or capital gains tax, maximising your profits.</p>
+                </div>
+                <div class="benefit card">
+                    <h3>Pro-Business Environment</h3>
+                    <p>A gateway for business growth and international trade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="cards">
+                <div class="card1">
+                    <div class="card1-image" style="background-image: url('images/img5.jpg');"></div>
+                    <div class="card1-content">
+                        <h3>Premium Brand Partnerships</h3>
+                        <p>Elevating your living experience with carefully curated brand collaborations.</p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card1-image" style="background-image: url('images/img6.jpg');"></div>
+                    <div class="card1-content">
+                        <h3>Strategic Locations</h3>
+                        <p>Our properties in high-growth areas offer desirability and value.</p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card1-image" style="background-image: url('images/img7.jpg');"></div>
+                    <div class="card1-content">
+                        <h3>Innovative Architectural Designs</h3>
+                        <p>Every KEYMAX property is a masterpiece, meticulously designed for a sophisticated lifestyle.
+                        </p>
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card1-image" style="background-image: url('images/img8.jpg');"></div>
+                    <div class="card1-content">
+                        <h3>Innovative Designs</h3>
+                        <p>Meticulously designed for a sophisticated lifestyle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2>KEYMAX Real Estate</h2>
+            <p>Email: <a href="mailto:info@keymaxrealestate.com">info@keymaxrealestate.com</a></p>
+            <h3>DUBAI OFFICE:</h3>
+            <p>KEYMAX REAL ESTATE BROKERS LLC, 107, Sheikh Zayed Road, Rawad AL Wasl Building, Dubai UAE.</p>
+            <h3>INDIA OFFICE:</h3>
+            <p>127, 1st floor, The Summit Business Bay, Behind Gurunanak Petrol Pump, Andheri East, Mumbai.</p>
+            <p class="copywrite">&copy; 2025 KEYMAX Real Estate. All Rights Reserved.</p>
+        </div>
+        <button onclick="scrollToTop()">^</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
