@@ -429,9 +429,22 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    
+}
+.footer-div-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.footer-div {
+    flex: 1;
+    min-width: 300px;
 }
 
 .footer-content {
+    flex:1;
     max-width: 70%;
     line-height: 1.8;
 }
@@ -479,7 +492,7 @@ footer button {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 footer button:hover {
